@@ -1,0 +1,619 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand';
+    font-weight: 300;
+}
+
+
+/*HEADER*/
+
+.Header {
+    padding-top: 15%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+    min-height: 250px;
+}
+
+
+/*MAIN Content */
+
+/* Container */
+
+.container-fluid.Footer {
+    background-color: #2E2E2E;
+}
+
+.container-fluid.Abstand {
+    margin-bottom: 10%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+/* Container */
+
+/* COL */
+
+.col-md-5.Bild {
+    margin-top: 5px;
+    background: #f0f0f0;
+    min-height: 500px;
+    font-family: 'Quicksand';
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    background: #2E2E2E;
+    color: white;
+}
+
+.col-md-5.text {
+    margin-top: 5px;
+    background: #f0f0f0;
+    min-height: 500px;
+    font-family: 'Quicksand';
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    background: #2E2E2E;
+    color: white;
+    margin-bottom: 35px;
+    margin-left: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+
+}
+
+.col-md-10.contact {
+    background-color: #2E2E2E;
+    height: 100px;
+    margin-top: 32%;
+}
+
+.col-md-10.skills {
+    background-color: #2E2E2E;
+    height: 100px;
+    margin-top: -31px;
+    margin-bottom: 40px;
+}
+
+.col-md-10.main_skills {
+    background-color: #2E2E2E;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+
+.col-md-12.movedPB {
+
+    height: 600px;
+
+
+
+}
+
+.text_mv {
+    font-size: 25px;
+    padding-left: 3%;
+    text-align: center;
+    padding-top: 3%;
+}
+.text_mv_noBorder{
+    font-size: 25px;
+    padding-left: 3%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+
+/* COL */
+
+/* BILDER */
+
+.Pic_mv {
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    transition: transform 700ms ease-in-out;
+
+
+}
+
+.Pic_mv.scrolled {
+    transform: translate(85%, 1300px);
+
+}
+
+#infoBoxBild {
+    height: 196px;
+    width: 246px;
+
+}
+
+#fadeInLeftP {
+    border-radius: 100%;
+    width: 200px;
+    height: 180px;
+    margin-top: 5%;
+
+}
+
+/* BILDER */
+
+/* ÜBERSCHRIFTEN */
+
+.small_h3 {
+    margin-top: 28px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+
+.small_h3_p {
+    margin-left: 40%;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 30px,
+}
+
+.h4_skills {
+    margin-left: 40%;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 30px;
+
+
+}
+
+
+/* ÜBERSCHRIFTEN */
+
+/* BUTTONS */
+
+.button {
+    margin-top: 25px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.button.button_F {
+    margin-left: 20px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.button.button_c:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button.button_F:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* BUTTONS */
+
+/* LINK */
+
+/* LINK */
+
+/* SONSTIGES */
+
+.infoBox {
+    height: 200px;
+    width: 250px;
+    margin-left: 30%;
+    margin-bottom: 15px;
+    border-radius: 100%;
+}
+
+#infoBox1 {
+    border: solid 2px black;
+    color: orange;
+    font-family: 'Quicksand', sans-serif;
+
+
+
+}
+
+#infoBox2 {
+    margin-top: -22%;
+    border: solid 2px black;
+
+
+}
+
+#infoBox3 {
+    margin-top: -22%;
+}
+
+
+
+.Infobox1Age {
+    height: 125px;
+    width: 100px;
+    font-size: 90px;
+    border-bottom: solid 2px black;
+    margin-left: 30%;
+    padding-left: 5%;
+
+
+}
+
+.Infobox1Birthday {
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+.responsiveP {
+    text-align: center;
+    color: black;
+    font-family: 'Quicksand';
+    font-weight: 200;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+
+
+
+/* SONSTIGES */
+
+/*MAIN Content */
+
+/*FOOTER*/
+
+/* CONTAINER */
+
+.container-fluid.footer {
+    background: #2E2E2E;
+    display: block;
+
+}
+
+
+/* CONTAINER */
+
+/* COL */
+
+.col-md-10.underline {
+    border-top: 3.5px solid #848484;
+}
+
+.col-md-10.copyright {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+
+
+/* COL */
+
+/* BILDER */
+
+/* BILDER */
+
+/* ÜBERSCHRIFTEN */
+
+.small_h3_F {
+    margin-left: 40%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 42px;
+    color: white;
+}
+
+.ueberschrift_infobox {
+    text-align: center;
+    color: black;
+    font-family: 'Quicksand';
+    font-weight: 200;
+    font-size: 30px;
+    visibility: hidden;
+    margin-top: 15%;
+}
+
+
+/* ÜBERSCHRIFTEN */
+
+/* BUTTON */
+
+/* BUTTON */
+
+/* Sonstiges */
+
+.hideme {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.progress {
+    border-radius: 0;
+    overflow: visible;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 80%;
+
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    background: #e9ebec;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+/* Sonstiges */
+
+/*FOOTER*/
+
+/* RESPONSIVE DESIG SMARTPHONE */
+
+@media screen and (max-width: 670px) {
+    .Header {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    /* CONTAINER */
+    /* CONTAINER */
+    /* COL */
+    .col-md-5.Bild {
+        min-height: 200px;
+    }
+    .col-md-5.text {
+        background: white;
+        color: black;
+        margin-bottom: 50px;
+    }
+    .col-md-10.project {
+        background-color: #2E2E2E;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .col-md-10.contact {
+        background-color: white;
+    }
+    .col-md-10.col-xs-6.copyright {
+        font-size: 10px;
+    }
+    .col-md-7.col-xs-6.Text_F {
+        margin-left: -90px;
+    }
+    .col-md-10.skills {
+
+        background: white;
+        height: 25px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .col-md-12.movedPB {
+        margin-top: 20%;
+        height: 10%;
+
+
+
+    }
+    /* COL */
+    /* BILDER */
+    .Pic_mv {
+        width: 250px;
+        height: 195px;
+        border-radius: 100%;
+    }
+
+    #fadeInLeftP {
+        width: 200px;
+        height: 200px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    /* BILDER */
+    /* ÜBERSCHRIFTEN */
+    .small_h3_p {
+        margin: 0 auto;
+        text-align: center;
+        color: black;
+        font-family: 'Quicksand';
+        font-weight: 200;
+        font-size: 30px;
+    }
+    .small_h3 {
+        display: none;
+    }
+    .small_h3_F {
+        color: white;
+        font-family: 'Quicksand';
+        font-weight: 200;
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    .h4_skills {
+
+        color: white;
+        font-family: 'Quicksand';
+        font-weight: 200;
+        margin: 0 auto;
+        margin-top: 3%;
+        width: 80%
+    }
+    .responsiveP {
+        visibility: visible;
+    }
+    .ueberschrift_infobox {
+        visibility: visible;
+    }
+
+
+    /* ÜBERSCHRIFTEN */
+    /* BUTTON */
+    .button.button_c {
+        margin-left: 16%;
+        width: 225px;
+        color: black;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        background-color:
+    }
+    .button.button_F {
+        margin-left: 19%;
+        width: 225px;
+        color: black;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        background-color:
+    }
+    /* BUTTON */
+    /* LINK */
+    /* LINK */
+    /*SONSITIGES*/
+    .infoBox {
+        height: 200px;
+        width: 250px;
+
+
+    }
+
+    #infoBox1 {
+
+        color: orange;
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 11%;
+        border: solid 2px black;
+
+
+
+    }
+
+
+
+    #infoBox2 {
+        margin-left: 11%;
+        border: solid 2px black;
+        margin-top: 10%;
+
+
+    }
+
+    #infoBox3 {
+        margin-left: 11%;
+        margin-top: 12%;
+
+
+    }
+
+    #infoBox4 {
+        margin-left: 11%;
+        border: solid 2px black;
+    }
+    .text_mv {
+        border-bottom: solid 2px black;
+
+    }
+    
+    #Abstand20 {
+        margin-bottom: 20%;
+    }
+    /*SONSITGES */
+}
+
+
+/* RESPONSIVE DESIG SMARTPHONE */
+
+/*Back to TOP Button */
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    background: #e9ebec;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+
+/*MAIN Content */
